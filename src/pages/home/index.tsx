@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -32,12 +31,17 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Minha jornada na tecnologia da informação{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Sou estudante de Desenvolvimento Web Full Stack na Kenzie Academy
+              Brasil, aqui tenho a oportunidade de desenvolver projetos em
+              equipe aonde são aplicadas metodologias ágeis, convenções e
+              arquiteturas de projetos amplamente utilizados no mercado tech.
+              Neste portfólio estão alguns dos projetos que desenvolvi durante
+              esta jornada e ficarei feliz em conversar mais sobre cada projeto
+              listado com você que está acessando este material. Fique a vontade
+              em me contatar pelo LInkedin ou Whatsapp.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -67,12 +71,12 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey1">
-                Vamos trocar uma ideia?
+                Vamos nos conhecer melhor?
               </Text>
               <Text as="p" type="body1" color="grey2">
-                No linkedIn sempre estou compartilhando meus processos diários
-                para desenvolver esses projetos e estou disposto a trocar
-                algumas ideias por lá
+                No linkedIn sempre estou compartilhando minha rotina de estudo,
+                projetos que estão sendo esenvolvidos e as linguagens que estou
+                me desenvolvendo no momento.
               </Text>
               <Button
                 type="primary"
@@ -88,7 +92,7 @@ export const Home = (): JSX.Element => {
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
+                Criatividade e{" "}
                 <Text as="span" color="brand1" type="heading2">
                   dedicação
                 </Text>{" "}
