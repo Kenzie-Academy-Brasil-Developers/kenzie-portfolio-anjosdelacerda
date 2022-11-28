@@ -1,11 +1,11 @@
 // Styles
+import { Button } from "@/styles/Buttons";
 import { Container } from "@/styles/Global";
 import { Text } from "@/styles/Text";
-import { Button } from "@/styles/Buttons";
 
 // Components
-import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
+import { Stack } from "@/components/Stack";
 
 // Data
 import { stackData } from "@/utils/stackData";
@@ -14,14 +14,14 @@ import { userData } from "@/utils/userData";
 // Page Style
 import {
   Header,
-  HeaderContent,
   HeaderButtonsArea,
-  StackSection,
-  StackCards,
-  ProjectsArea,
-  ProjectsAreaSocialMediaMessage,
-  ProjectsAreaContent,
+  HeaderContent,
   ProjectAreaWrapperColumns,
+  ProjectsArea,
+  ProjectsAreaContent,
+  ProjectsAreaSocialMediaMessage,
+  StackCards,
+  StackSection,
 } from "./style";
 
 export const Home = (): JSX.Element => {
